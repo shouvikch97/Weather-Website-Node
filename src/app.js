@@ -1,6 +1,6 @@
 const path = require('path')
-const express = require('express')
-const hbs = require('hbs')
+const express = require('../node_modules/express')
+const hbs = require('../node_modules/hbs/lib/hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
